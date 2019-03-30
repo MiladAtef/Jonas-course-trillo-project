@@ -10,6 +10,7 @@
 	background-color: #fff;
 	height: 7rem;
 	display: flex;
+	border-bottom: var(--line);
 	justify-content: space-between;
 	align-items: center;
 }
@@ -27,6 +28,22 @@
 .hotel-view {
 	background-color: #fff;
 	flex: 1;
+}
 
-	height: 80rem; //TODO: dont forget to remove me
+.detail {
+	display: flex;
+	padding: 4.5rem;
+	background-color: var(--color-grey-light-1);
+	border-bottom: var(--line);
+}
+.description {
+	font-size: 1.4rem;
+	padding: 3rem;
+	flex: 0 0 60%;
+	margin-right: 4.5rem;
+	box-shadow: var(--shadow-light);
+}
+.user-overviews {
+	background-color: yellowgreen;
+	flex: 1;
 }
